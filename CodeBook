@@ -1,0 +1,39 @@
+THE VARIABLES
+ACTIVITES
+1 WALKING - activity recorded when walking
+2 WALKING_UPSTAIRS - activity recorded when walking up stairs
+3 WALKING_DOWNSTAIRS - activity recorded when walking down stairs
+4 SITTING - activity recorded when sitting
+5 STANDING - activity recorded when standing
+6 LAYING - activity recorded when laying down
+
+MODIFIED FEATURE VARIABLES
+t = time domain
+f = frequency domain
+acc = acceleration
+gyro = velocity
+mag = magnitude
+std = standard deviation
+
+activityNames - list of activities       
+features -  feratures included in data set
+masterData - aggregation of x, y, and subject dataset    
+subject_dataset - aggregation of test and train
+subject_test - subject test data
+subject_train - subject train data
+tidyData - final tiny data set    
+wantedFeatures - mean and standard deviation
+x_dataset - aggregation of of test and train
+X_test - x test data        
+X_train - x train data
+y_dataset - aggregation of test and train
+y_test - y test data
+y_train - y train data
+
+THE DATA
+Data set comes from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and represents data collected from the accelerometers from the Samsung Galaxy S smartphone by UCI
+
+TRANSFORMATIONS
+1. bound train and test datasets and extracted mean/standard deviation
+2. Added subject and activity names where appropriate and modified select variable names
+3. Aggregated all data into one file

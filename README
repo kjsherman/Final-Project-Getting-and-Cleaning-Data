@@ -1,0 +1,17 @@
+The related script is based off the directions from the course project for Getting and Cleaning Data offered through Coursera June 2017. The project leverages data recorded from Samsung wearables (weblink in CODE_BOOK)
+
+Below are the explicit instructions for the assignment.
+
+Please refer to comments within the script for more specific explanations.
+
+run_Analysis.R is a file containing the relevant script
+Code_Book.md contains a list of the variables, where the data can be found, and a high level overview of how the data was transformed
+tidydata.txt ccontains the final output
+
+
+(We take for granted that data is already downloaded in single file)
+Merges the training and the test sets to create one data set.
+Extracts only the measurements on the mean and standard deviation for each measurement.
+Uses descriptive activity names to name the activities in the data set
+Appropriately labels the data set with descriptive variable names.
+From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
